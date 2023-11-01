@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        mark{
+            background-color: rgb(226, 43, 55);
+        }
+    </style>
+</head>
+<body>
+  <h1><mark>Outras formatações</mark></h1>
+    <h2><mark>Código-fonte / Pré-formatacão</mark></h2>
+     <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript (Usa-se a tag code para escrever códigos para que fiquem melhor para ler.)</p>
+     <pre>
+         <code>
+<mark style="background-color: aqua;">
+    num = int(input('Digite um numero:'))
+    if num % 2 == 0:
+    print(f'o número {num} é PAR')
+    else:
+    print(f'o número {num} é ÍMPAR')
+    print('fim do programa')
+</mark></code> </pre>     <p>(Usa-se a tag pre para que aparecam na posição que foi escrita no HTML)</p>
+
+    <h2><mark>Citações simples</mark></h2>
+     <p>Como diria o pai do meu amigo: <q>o computador é um burro muito rápido</q> (Usa-se a tag q para indicar uma citação)</p>
+    <h2><mark>citações completas</mark></h2>
+     <p>segundo jeff Noble, no seu livro HTML para leigos:  (usando a tag blockquote com um cite= entre para adicionar o link do livro ao código.)</p>
+       <blockquote cite="https://www.google.com.br/books/edition/Desenvolvimento_de_Jogos_em_HTML5/LZ1QBAAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover"> A diferença entre elementos inline e um bloco de texto é importante. os elementos html neste capitulo descrevem os blocos de texto.</blockquote>
+    <h2><mark>Abreviações</mark></h2>
+        <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando !! (Usa-se a  tag abbr para adicionar o significado das abreviações)</p>
+    <h2><mark>Texto invertido (Usa-se a tag bdo para inverter o texto)</mark></h2>
+        <p><bdo dir="rtl">Estou estudando HTML</bdo></p>
+</body>
+</html>

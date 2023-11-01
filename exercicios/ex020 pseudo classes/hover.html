@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: larger;
+        }
+
+        div:hover{
+            color: blueviolet;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+     <p>Passe o mouse sobre o texto abaixo</p>
+     <div>Passe o mouse aqui
+        <p>Texto escondido... ABUBLÉ  <img width="500px" src="../ex003 imagens/imagens/imagemtransp1.300.png" alt="exemplo"> </p>
+     </div>
+      
+    
+</body>
+</html>
