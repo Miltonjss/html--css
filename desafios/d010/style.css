@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@font-face {
+    font-family: sri;
+    src: url(fontes/Sriracha/Sriracha-Regular.ttf);
+}
+@font-face {
+    font-family: pas;
+    src: url(fontes/Passion_One/PassionOne-Black.ttf);
+}
+@font-face {
+    font-family: pas1;
+    src: url(fontes/Passion_One/PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family: pas2;
+    src: url(fontes/Passion_One/PassionOne-Regular.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    font-family: sri;
+    padding: 50px 0px 100px 50px;
+}
+#estrofe2{
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+}
+#estrofe5{
+    color: white;
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header{
+    font-family: pas1;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    
+}
